@@ -1,0 +1,159 @@
+.icon {
+    position: absolute;
+    top: 90px;
+    left: calc(50% - 56px);
+    border-radius: 158px;
+    width: 113px;
+    height: 113px;
+    object-fit: cover;
+  }
+  .organizeMe,
+  .text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .organizeMe {
+    bottom: 633px;
+    left: calc(50% - 144px);
+    font-size: 25px;
+    letter-spacing: 0.25em;
+    font-weight: 800;
+    width: 289px;
+    height: 114px;
+    mix-blend-mode: normal;
+  }
+  .text {
+    top: 495px;
+    left: 59px;
+    letter-spacing: 0.05em;
+    font-family: var(--font-gilda-display);
+    color: #000;
+    width: 291px;
+    height: 123px;
+  }
+  .welcomeTo {
+    letter-spacing: 0.02em;
+  }
+  .organizeMe1 {
+    letter-spacing: 0.25em;
+  }
+  .welcomeToOrganizeMe {
+    margin: 0;
+  }
+  .stayOrganizedBoost {
+    margin: 0;
+    letter-spacing: 0.02em;
+  }
+  .welcomeToOrganizeContainer1 {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .welcomeToOrganizeContainer {
+    position: absolute;
+    top: 409px;
+    left: calc(50% - 153px);
+    font-weight: 900;
+    color: rgba(112, 93, 230, 0.99);
+    display: flex;
+    align-items: center;
+    width: 307px;
+    height: 109px;
+  }
+  .loginsignuppageChild,
+  .secondaryButton {
+    width: 119px;
+    position: absolute;
+    top: 655px;
+    left: 155px;
+    cursor: pointer;
+    background-color: #2FCEBB;
+    /* position: relative; */
+ 
+  }
+  .secondaryButton {
+    width: 120px;
+    top: 727.5px;
+    left: 154.5px;
+    background-color: #2FCEBB;
+    -webkit-text-fill-color: #fff;
+  }
+  .loginsignuppageItem {
+    position: absolute;
+    top: 116px;
+    left: 67px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+  .loginsignuppage {
+    position: relative;
+    border-radius: 25px;
+    background: linear-gradient(
+        180deg,
+        rgba(230, 101, 93, 0.2),
+        rgba(112, 93, 230, 0.16) 50.53%,
+        rgba(138, 98, 223, 0.13) 70.72%,
+        rgba(41, 156, 136, 0.19) 99.99%,
+        rgba(27, 68, 16, 0.2)
+      ),
+      #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 926px;
+    overflow: hidden;
+    mix-blend-mode: normal;
+    cursor: pointer;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: rgba(75, 61, 161, 0.98);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 420px) {
+    .loginsignuppage {
+      opacity: 0;
+    }
+    .loginsignuppage.animate {
+      animation: 0.5s ease 0.1s 1 normal forwards fade-in;
+    }
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+/* Default styles for all screen sizes */
+.loginsignuppage {
+  /* Existing styles */
+}
+
+/* Mobile styles for iPhone 13 Pro Max (and similar devices) */
+@media screen and (max-width: 428px) {
+  /* Update the max-width value as needed to target the specific mobile device */
+  .loginsignuppage {
+    /* Override styles for mobile here */
+    width: 100%;
+    height: auto; /* Adjust height automatically based on content */
+    font-size: 16px; /* Adjust font size for better readability on mobile */
+    color: rgba(75, 61, 161, 0.98);
+    font-family: var(--font-inter);
+  }
+  .loginsignuppageChild,
+  .secondaryButton {
+    width: 80px; /* Adjust the button width for mobile */
+    /* Adjust the button position for better placement on mobile screens */
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .secondaryButton {
+    width: 80px;
+    top: 40px; /* Adjust the position of the second button */
+    /* You can add more mobile-specific styles as needed */
+  }
+  /* You can add more styles or overrides for mobile here */
+}
