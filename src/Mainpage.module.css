@@ -1,0 +1,283 @@
+.icon {
+    position: absolute;
+    top: 24px;
+    left: calc(50% - 190px);
+    border-radius: var(--br-139xl);
+    width: 66px;
+    height: 66px;
+    object-fit: cover;
+  }
+  .calendar {
+    position: relative;
+    width: 2801px;
+    height: 1159px;
+  }
+  .myTasks,
+  .thJuly2023 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 26px;
+  }
+  .myTasks {
+    font-weight: 800;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    mix-blend-mode: normal;
+  }
+  .thJuly2023 {
+    font-size: 18px;
+    color: rgba(75, 61, 161, 0.55);
+  }
+  .frame {
+    position: absolute;
+    top: 100px;
+    left: 93px;
+    width: 244px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: var(--font-size-6xl);
+    color: rgba(75, 61, 161, 0.83);
+  }
+  .materialSymbolscheckvariantFormcheck {
+    position: relative;
+  }
+  .monthlyGeneralMeeting {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+  }
+  .frame1,
+  .gymPracticies {
+    display: flex;
+    align-items: center;
+  }
+  .frame1 {
+    position: absolute;
+    top: 240px;
+    left: 46px;
+    width: 299px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .gymPracticies {
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    width: 267px;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  .frame2 {
+    top: 278px;
+    left: 46px;
+    width: 299px;
+    height: 25px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .frame2,
+  .frame3,
+  .frame4 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .frame3 {
+    top: 316px;
+    left: 46px;
+    width: 299px;
+    height: 25px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .frame4 {
+    top: 440px;
+  }
+  .frame4,
+  .frame5,
+  .frame6 {
+    left: 46px;
+    width: 299px;
+    height: 25px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .frame5 {
+    position: absolute;
+    top: 478px;
+    display: flex;
+    align-items: center;
+  }
+  .frame6 {
+    top: 516px;
+  }
+  .frame6,
+  .frame7,
+  .organizeMe {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .frame7 {
+    top: 558px;
+    left: 46px;
+    width: 299px;
+    height: 25px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .organizeMe {
+    bottom: 0;
+    left: calc(50% - 174.5px);
+    letter-spacing: 0.25em;
+    font-weight: 800;
+    justify-content: center;
+    width: 289px;
+    height: 114px;
+    mix-blend-mode: normal;
+  }
+  .systemUiconsbuttonAdd {
+    width: 64px;
+    position: absolute;
+    top: 0;
+    left: 113px;
+    cursor: pointer;
+  }
+  .property1defaultIcon {
+    position: absolute;
+    top: 31px;
+    left: 20px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .property1variant2Icon {
+    top: 64px;
+    left: 20px;
+    width: 24px;
+    height: 24px;
+  }
+  .frame8,
+  .materialSymbolscheck,
+  .property1variant2Icon {
+    position: absolute;
+    overflow: hidden;
+  }
+  .materialSymbolscheck {
+    top: 14px;
+    left: 289px;
+    border-radius: 5px;
+    border: 1px dashed #9747ff;
+    box-sizing: border-box;
+    width: 60px;
+    height: 105px;
+  }
+  .frame8 {
+    top: 743px;
+    left: 70px;
+    width: 349px;
+    height: 179px;
+    text-align: center;
+    font-size: var(--font-size-6xl);
+    color: var(--color-darkslateblue-100);
+  }
+  .materialSymbolscheckvariantFormcheck7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .materialSymbolscheckvariantFormcheck8 {
+    position: absolute;
+    top: 38px;
+    left: 0;
+  }
+  .frame10 {
+    position: relative;
+    width: 24px;
+    height: 62px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .groceryShopping,
+  .preparingPresentations1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    width: 267px;
+    height: 25px;
+  }
+  .preparingPresentations1 {
+    top: 38px;
+  }
+  .materialSymbolscheckIcon {
+    position: absolute;
+    top: 18px;
+    left: 173px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .frame11,
+  .frame9 {
+    height: 63px;
+    overflow: hidden;
+  }
+  .frame11 {
+    position: relative;
+    width: 267px;
+    flex-shrink: 0;
+  }
+  .frame9 {
+    position: absolute;
+    top: 357px;
+    left: 46px;
+    width: 299px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .mainpage {
+    position: relative;
+    border-radius: var(--br-6xl);
+    background: linear-gradient(
+        180deg,
+        rgba(230, 101, 93, 0.2),
+        rgba(112, 93, 230, 0.16) 50.53%,
+        rgba(138, 98, 223, 0.13) 70.72%,
+        rgba(41, 156, 136, 0.19) 99.99%,
+        rgba(27, 68, 16, 0.2)
+      ),
+      #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 926px;
+    overflow: hidden;
+    mix-blend-mode: normal;
+    cursor: pointer;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  

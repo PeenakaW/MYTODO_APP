@@ -1,0 +1,135 @@
+.alreadyHaveAn,
+.secondaryButton {
+  width: 120px;
+  position: absolute;
+  top: 669.5px;
+  left: 153.5px;
+  cursor: pointer;
+}
+.alreadyHaveAn {
+  text-decoration: none;
+  top: 733px;
+  left: 119px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 23px;
+  mix-blend-mode: normal;
+}
+.signuppageChild {
+  position: absolute;
+  top: 820px;
+  left: 61px;
+  width: 308px;
+  height: 2px;
+  object-fit: cover;
+}
+.icon {
+  position: relative;
+  border-radius: var(--br-139xl);
+  width: 113px;
+  height: 113px;
+  object-fit: cover;
+}
+.frame,
+.organizeMe {
+  width: 289px;
+  display: flex;
+  align-items: center;
+}
+.organizeMe {
+  position: relative;
+  letter-spacing: 0.25em;
+  font-weight: 800;
+  justify-content: center;
+  height: 114px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  margin-top: -24px;
+}
+.frame {
+  position: absolute;
+  top: 90px;
+  left: 70px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslateblue-100);
+}
+.frame1,
+.frame2,
+.frame3,
+.frameAntinputpassword {
+  background-color: transparent;
+  position: absolute;
+  top: 396px;
+  left: 76px;
+}
+.frame2,
+.frame3,
+.frameAntinputpassword {
+  top: 462px;
+}
+.frame3,
+.frameAntinputpassword {
+  top: 526px;
+}
+.frameAntinputpassword {
+  top: 592px;
+}
+.facebook2Icon,
+.instagram12 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.instagram12 {
+  width: 55px;
+  height: 55px;
+}
+.frame4 {
+  position: absolute;
+  top: 835px;
+  left: 88px;
+  width: 245px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.signuppage {
+  position: relative;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+      180deg,
+      rgba(230, 101, 93, 0.2),
+      rgba(112, 93, 230, 0.16) 50.53%,
+      rgba(138, 98, 223, 0.13) 70.72%,
+      rgba(41, 156, 136, 0.19) 99.99%,
+      rgba(27, 68, 16, 0.2)
+    ),
+    #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .frame4 {
+    flex-direction: row;
+    gap: var(--gap-26xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,140 @@
+.loginpageChild,
+.secondaryButton {
+  width: 120px;
+  position: absolute;
+  top: 611.5px;
+  left: 153.5px;
+}
+.loginpageChild {
+  top: 819px;
+  left: 67px;
+  width: 308px;
+  height: 2px;
+  object-fit: cover;
+}
+.icon {
+  position: relative;
+  border-radius: var(--br-139xl);
+  width: 113px;
+  height: 113px;
+  object-fit: cover;
+}
+.frame,
+.organizeMe {
+  display: flex;
+  align-items: center;
+}
+.organizeMe {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.25em;
+  font-weight: 800;
+  justify-content: center;
+  height: 109px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  margin-top: -24px;
+}
+.frame {
+  position: absolute;
+  top: 78px;
+  left: 67px;
+  width: 289px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameFormgroup,
+.frameFormgroup1 {
+  width: 276px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 462.5px;
+  left: 75.5px;
+}
+.frameFormgroup1 {
+  top: 523.5px;
+}
+.createAnAccount,
+.forgotPassword {
+  flex: 1;
+  position: relative;
+  mix-blend-mode: normal;
+}
+.createAnAccount {
+  text-decoration: none;
+  color: inherit;
+}
+.forgotPassword {
+  margin-left: -18px;
+}
+.frame1 {
+  position: absolute;
+  top: 574px;
+  left: 33px;
+  width: 362px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.facebook1,
+.whatsapp1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  height: 50px;
+  background-image: url(/public/facebook-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.whatsapp1 {
+  background-image: url(/public/whatsapp-1@3x.png);
+}
+.instagram11 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 55px;
+  object-fit: cover;
+}
+.frame2 {
+  position: absolute;
+  top: 834px;
+  left: 94px;
+  width: 245px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.loginpage {
+  position: relative;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(
+      180deg,
+      rgba(230, 101, 93, 0.2),
+      rgba(112, 93, 230, 0.16) 50.53%,
+      rgba(138, 98, 223, 0.13) 70.72%,
+      rgba(41, 156, 136, 0.19) 99.99%,
+      rgba(27, 68, 16, 0.2)
+    ),
+    #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
