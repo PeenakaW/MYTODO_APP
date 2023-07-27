@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import { Button, Form } from "react-bootstrap";
-import { Button,Form } from "antd";
+import { Button, Form } from "react-bootstrap";
+// import { Button,Form } from "antd";
 import styles from "./LogInpage.module.css";
 const LogInpage: FunctionComponent = () => {
   return (
